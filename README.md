@@ -32,5 +32,5 @@ let value = buffer.read_i32()?;
 `byteorder-extended` is distributed under the terms the MIT license.
 
 Substantial portions of the code might come from `holomorph` crate. 
-`holomorph` is distributed under the terms of  the MIT license. Make 
+`holomorph` is distributed under the terms of the MIT license. Make 
 sure to include it on the end  product.

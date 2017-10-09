@@ -2,11 +2,13 @@
 name = "byteorder_extended"
 version = "0.1.0"
 authors = ["scalexm <martin.alex32@hotmail.fr>", "Noxivs <sum.noxivs@gmail.com>"]
+
 description = "This crate extends the byteorder library with additionnal reading/writing functions."
+repository = "https://github.com/d2ce/byteorder-extended"
 readme = "README.md"
 categories = ["encoding", "parsing"]
 keywords = ["byte", "big-endian", "binary"]
-license = "Unlicensed"
+license = "MIT"
 
 [dependencies]
 byteorder = "1.0.0"

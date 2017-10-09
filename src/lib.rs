@@ -216,6 +216,10 @@ pub trait WriteExt: WriteBytesExt {
     fn write_string(&mut self, data: &str) -> Result<()> {
         let len = data.len();
         try!(WriteExt::write_u16(self, len as u16));
+        self.write_utf(data)
+    }
+
+    fn write_utf(&mut self, data: &str) -> Result<()> {
         self.write_all(data.as_bytes())
     }
 }
